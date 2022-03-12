@@ -1,0 +1,10 @@
+<rpc semp-version="soltr/8_1_0">
+    <syslog>
+        <name>logstash</name>
+        <host>
+            <hostname-or-address>host.docker.internal:51422</hostname-or-address>
+            <transport></transport>
+            <tcp></tcp>
+        </host>
+    </syslog>
+</rpc>

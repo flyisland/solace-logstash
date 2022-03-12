@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  logstash:
+    container_name: logstash
+    image: docker.elastic.co/logstash/logstash:8.1.0
+    ports:
+      - 51420:51420
+      - 51421:51421
+      - 51422:51422
+    volumes:
+      - "./pipeline/:/usr/share/logstash/pipeline/"
+      - "./config/:/usr/share/logstash/config/"

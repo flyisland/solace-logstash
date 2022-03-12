@@ -1,0 +1,7 @@
+<rpc semp-version="soltr/8_1_0">
+    <create>
+        <syslog>
+            <name>logstash</name>
+        </syslog>
+    </create>
+</rpc>
