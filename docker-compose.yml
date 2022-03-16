@@ -59,4 +59,5 @@ services:
     volumes:
       - "./config/logstash.yml:/usr/share/logstash/config/logstash.yml"
       - "./pipeline/:/usr/share/logstash/pipeline/"
+      - "./patterns/:/usr/share/logstash/patterns/"
       - "./tmp:/tmp"
